@@ -1,0 +1,57 @@
+body {
+  background-color: rgba(255, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  animation: rainbow-bg 60s linear infinite
+}
+
+.shadowText {
+  text-shadow: 1.25px 2px 5px black;
+}
+
+#titleBox {
+  font-size: 20px;
+  background-color: rgba(204, 204, 204, 0.7);
+  text-align: center;
+  height: auto;
+  box-shadow: 2px 5px 10px black;
+  padding: 5px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  animation: rainbow-border 1.5s linear infinite;
+}
+
+#content {
+  padding: 10px;
+  font-size: 15px;
+}
+
+#imagen, #gigachad, #negro, #hmmm {
+  padding: 5px;
+  margin: 5px;
+  width: 45%;
+}
+
+@keyframes rainbow-border {
+  0% { border-color: red; }
+  14% { border-color: orange; }
+  28% { border-color: yellow; }
+  42% { border-color: green; }
+  57% { border-color: blue; }
+  71% { border-color: indigo; }
+  85% { border-color: violet; }
+  100% { border-color: red; }
+}
+
+@keyframes rainbow-bg {
+  0% { background-color: red; }
+  14% { background-color: orange; }
+  28% { background-color: yellow; }
+  42% { background-color: green; }
+  57% { background-color: blue; }
+  71% { background-color: indigo; }
+  85% { background-color: violet; }
+  100% { background-color: red; }
+}
